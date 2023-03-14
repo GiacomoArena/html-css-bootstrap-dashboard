@@ -1,3 +1,13 @@
+.debug2{
+  background-color: blueviolet;
+  border:1px solid black;
+}
+.debug{
+  background-color: #1b70e89a;
+  border:1px solid black;
+}
+
+
 
 .custom-dropdown-toggle::after {
   display: none;
@@ -12,9 +22,10 @@
   background-color: #051E34;
   background-image: url(../img/sidebar-bg.png);
   background-size: contain;
-  height: calc(100vh - 72px); /*da sistemare in base alla grandezza del logo che si trova sulla nav bar */
+  height: 100%; /*da sistemare in base alla grandezza del logo che si trova sulla nav bar */
   margin-right:0;
 }
+
 
 main .side-bar a{
   position: relative;
@@ -31,36 +42,27 @@ main .side-bar a span{
   padding-right: 0;
   
 }
-.debug2{
-  background-color: blueviolet;
-  border:1px solid black;
+.cnt-bluebar{
+height: 100px;
+background-color: #1B72E8;
 }
-.debug{
-  background-color: #1b70e89a;
-  border:1px solid black;
+.cnt-7{
+  width: 65%;
 }
-.boolean-info{
-  /* width: calc(100% - 70px);
-  height: 130px; */
-  /* margin-left: 12px; */
+.cnt-4{
+  width: 30%;
 }
 .prossime-classi{
-  /* width: 70%; */
-  height: 350px;
+  height: 40vh;
 }
 .todo{
-  /* width: 10%; */
-  height: 200px;
+  height: 20vh;
 }
 .todos{
-  /* width: 100%; */
   height: 150px;
-  /* position: absolute;
-  top: 195px; */
 }
 .faq{
-  /* width: 70%; */
-  height: 200px;
+  height: 50vh;
 }
 
 
