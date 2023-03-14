@@ -22,13 +22,16 @@
           <img src="img/logo.svg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span> <i class="fa-solid fa-bell"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- search button  -->
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <div class="input-group flex-nowrap">
+            <form class="d-flex w-100" role="search">
+              <input class="form-control m3-5 w-80" type="search" placeholder=" Prova a cercare: Lezione di Laravel" aria-label="Search">
+            </form>
+          </div>
+          
           <!-- other button -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -48,7 +51,10 @@
             </li>
             
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle custom-dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <!-- da mobile first  -->
+              
+              <!-- tablet in poi  -->
+              <a class="d-lg-inline-block nav-link dropdown-toggle custom-dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell"></i>
               </a>
               <ul class="dropdown-menu">
