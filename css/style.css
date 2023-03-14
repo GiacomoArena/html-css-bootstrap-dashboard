@@ -13,7 +13,8 @@
   background-image: url(../img/sidebar-bg.png);
   background-size: contain;
   height: calc(100vh - 59px); /*da sistemare in base alla grandezza della barra alta */
-  max-width: 70px;
+  width: 70px;
+  margin-right:0;
 }
 
 main .sc-container .side-bar a{
@@ -27,11 +28,14 @@ main .sc-container .side-bar a span{
   left: 35px;
 }
 
+.debug{
+  background-color: #1b70e89a;
+}
 
 
 
 @media screen and (min-width:992px) {
   .sc-container .side-bar{
-    max-width: 150px;
+    width: 150px;
   }
 }
