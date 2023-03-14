@@ -2,3 +2,36 @@
 .custom-dropdown-toggle::after {
   display: none;
 }
+
+.logo-mobile{
+  width:50px;
+  
+}
+
+.sc-container .side-bar{
+  background-color: #051E34;
+  background-image: url(../img/sidebar-bg.png);
+  background-size: contain;
+  height: calc(100vh - 59px); /*da sistemare in base alla grandezza della barra alta */
+  max-width: 70px;
+}
+
+main .sc-container .side-bar a{
+  position: relative;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+main .sc-container .side-bar a span{
+  position: absolute;
+  left: 35px;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+  .sc-container .side-bar{
+    max-width: 150px;
+  }
+}
