@@ -1,17 +1,35 @@
 
-.debug{
+.bordi{
   border:1px solid #D2D2D2;
 }
-
-
-
+header{
+  background-color: #F8F9FA;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.menu-bar{
+  height: 60px;
+}
+.nav-color{
+  background-color: white;
+}
+header .menu-bar .logo{
+  width: 150px;
+  padding: 0px 15px;
+  background-color: white;
+  
+}
 .custom-dropdown-toggle::after {
   display: none;
 }
+header button a{
+  color: rgb(255, 153, 0) !important;
+}
 
 .logo-mobile{
-  width:50px;
-  
+  width: 40px;
+  margin: 0px 15px;
 }
 
 .side-bar{
@@ -21,7 +39,9 @@
   height: 100%;
   margin-right:0;
 }
-
+main{
+  padding-top: 60px;
+}
 
 main .side-bar a{
   position: relative;
@@ -60,19 +80,22 @@ background-color: #1B72E8;
 .nuovo-studente span{
   font-size: 14px;
 }
+.main-cnt{
+  height: 100vh;
+  overflow-y: auto;
+}
 
 .col-11 h3{
   background-color: #F7F7F7;
   padding: 10px;
 }
 .todo{
-  height: 200px;
 }
 
 .faq{
 }
 .activity{
-  height: 500px;
+  
 }
 .img-table{
   width: 7%;
