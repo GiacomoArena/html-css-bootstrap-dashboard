@@ -38,20 +38,34 @@ main .side-bar a span{
   position: absolute;
   left: 35px;
 }
+
 .cnt-sidebar{
   padding-right: 0;
   
 }
 .cnt-bluebar{
-height: 100px;
 background-color: #1B72E8;
 }
-.cnt-7{
-  width: 65%;
+.span-style{
+  font-size: 11px;
+  padding: 3px 5px;
+  background-color: #165BBA;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-left: 5px;
 }
-.cnt-4{
-  width: 30%;
+#blaze{
+  position: absolute;
+  left: 110px;
+  top: 13px;
 }
+.studenti{
+  font-size: 14px;
+}
+.nuovo-studente span{
+  font-size: 14px;
+}
+
 .prossime-classi{
   height: 40vh;
 }
@@ -68,8 +82,8 @@ background-color: #1B72E8;
 
 
 @media screen and (min-width:992px) {
-  .side-bar{
-    height: calc(100vh - 59px);
+  .offcanvas{
+    width: 50% !important;
   }
 }
 

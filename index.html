@@ -107,30 +107,209 @@
     <!-- \\ side bar -->
     <div class="col-11 col-lg-10">
       <!-- blue  bar rules  -->
-      <div class="row cnt-bluebar">
+      <div class="row cnt-bluebar align-items-center text-white py-3">
 
-        <div class="col-sm-6 order-3 order-sm-0 d-flex ">
-
+        <div class="col-sm-6 order-3 order-sm-0 d-flex flex-column">
+          <!-- elementi dentro la prima colonna sulla sx -->
+          <div class="d-flex position-relative">
+            <h2 class=" d-inline-block">Boolean </h2>
+            <span id="blaze" class="span-style">Piano blaze</span>
+          </div>
+          <div class="d-flex">
+            <span class="span-style">3 app</span>
+            <span>>></span>
+            <span class="d-inline-block d-lg-none">
+              +
+            </span>
+            <span class="d-none d-lg-inline-block span-style">Boolean mobile app</span>
+            <span class="d-none d-lg-inline-block span-style">Boolean web app</span>
+            <span class="d-none d-lg-inline-block span-style">Boolean blog app</span>
+          </div>
+<!-- elementi dentro la seconda colonna sulla sx -->
         </div>
-        <div class="col-sm-3 order-1 d-flex ">col</div>
-        <div class="col-sm-3 order-0 order-sm-3 d-flex ">col</div>
-      </div> 
+        <div class="col-sm-3 order-1 d-flex studenti flex-column">
+          <span>Studenti online negli ultimi 30 minuti</span>
+          <h2>125</h2>
+<!-- elementi dentro la terza colonna sulla sx -->
+        </div>
+        <div class="col-sm-3 order-0 order-sm-3 d-flex align-items-center justify-content-md-around nuovo-studente">
+          <span class="me-2">Nuovo Studente</span>
+          <button class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            +
+          </button>
+
+          <div class="offcanvas offcanvas-end  w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Inserisci un nuovo studente
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="d-flex">
+                <!-- NOME -->
+                <div class="mb-3 me-3 w-50">
+                  <label for="basic-url" class="form-label">
+                    Nome
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\NOME -->
+                <!-- COGNOME -->
+                <div class="mb-3 w-50">
+                  <label for="basic-url" class="form-label">
+                    Cognome
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\COGNOME -->
+              </div>
+              <!-- container seconda riga input  -->
+              <div class="d-flex">
+                <!-- EMAIL -->
+                <div class="mb-3 me-3 w-50">
+                  <label for="basic-url" class="form-label">
+                    Email
+                  </label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              <!-- \\\EMAIL -->
+                <!-- PASSWORD -->
+                <div class="mb-3 w-50">
+                  <label for="basic-url" class="form-label">
+                    Password
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\PASSWORD -->
+              </div>
+              <!--\\\\ container seconda riga input  -->
+              <!--\\\\ container terza riga input  -->
+              <div class="d-flex">
+                <!-- INDIRIZZO -->
+                <div class="mb-3 me-3 w-100">
+                  <label for="basic-url" class="form-label">
+                    Indirizzo
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\INDIRIZZO -->
+              </div>
+              <div class="d-flex">
+                <!-- CITTà -->
+                <div class="mb-3 me-3 w-50">
+                  <label for="basic-url" class="form-label">
+                    Città
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\CITTà -->
+                <!-- STATO -->
+                <div class="mb-3 me-3 w-25">
+                  <label for="basic-url" class="form-label">
+                    Stato
+                  </label>
+                  <div class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Scegli...</option>
+                      <option value="1">Italiano</option>
+                      <option value="2">Inglese</option>
+                      <option value="3">Tedesco</option>
+                    </select>
+                  </div>
+                </div>
+              <!-- \\\STATO -->
+                <!-- CAP -->
+                <div class="mb-3 w-25">
+                  <label for="basic-url" class="form-label">
+                    Cap
+                  </label>
+                  <div class="input-group">
+                    
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              <!-- \\\CAP -->
+              </div>
+
+              <div class="d-flex">
+                <!-- scegli file -->
+                <div class="mb-3 me-3 w-100">
+                  <label for="basic-url" class="form-label">
+                    Foto
+                  </label>
+                  <div class="input-group">
+                    <input type="file" class="form-control" placeholder="scegli file" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                    
+                  </div>
+                </div>
+              <!-- \\\scgli file -->
+              </div>
+              <div class="d-flex">
+                <!-- check-box -->
+                <div class="mb-3 me-3 w-100">
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Seleziona per proseguire
+                    </label>
+                  </div>
+                </div>
+              <!-- \\\check-box -->
+              </div>
+              <div class="d-flex">
+                <!-- buttons-->
+                <div class="mb-3 me-3 ">
+                  <button type="button" class="btn btn-primary">Salva</button>
+                
+                  <button type="button" class="btn btn-warning">Svuota</button>
+              <!-- \\\buttons-->
+                </div>
+              </div>
+
+            </div>
+              <!--\\\\ container terza riga input  -->
+          </div>
+        </div>
+      </div>
+     
+  
       <!--\\\ blue  bar rules  -->
       <div class="row d-flex mt-4 ms-4 ms-lg-3 flex-wrap cnt-statics">
-    <div class="col-11 col-lg-7 ">
-      <div class="row debug prossime-classi mb-4"> ciao</div>
-      <div class="row debug2 mb-4 todo">lorem</div>
-    </div>
-    <div class="col-11 col-lg-4 ">
-      <div class="row todo ms-lg-3 mb-4 debug">
-        ciao
+        <div class="col-11 col-lg-7 ">
+          <div class="row debug prossime-classi mb-4"> ciao</div>
+          <div class="row debug2 mb-4 todo">lorem</div>
+        </div>
+        <div class="col-11 col-lg-4 ">
+          <div class="row todo ms-lg-3 mb-4 debug">
+          ciao
+          </div>
+        <div class="row faq ms-lg-3 debug2">buongiorno</div>
+        </div>
       </div>
-      <div class="row faq ms-lg-3 debug2">buongiorno</div>
     </div>
-  </div>
     </div>
       
-  </div>
+  
 
       
   
