@@ -80,7 +80,7 @@
 <main>
   <div class="row ">
     <!-- side bar rules -->
-    <div class="col-1 col-lg-2 cnt-sidebar">
+    <div class="col-1 col-lg-2 cnt-sidebar ">
       <div class="row side-bar me-0 flex-column">
         <div class=" col align-self-start text-center flex-column d-flex align-items-lg-start ms-lg-3 mt-4 align-items-center">
           <a href="#">
@@ -292,7 +292,7 @@
         </div>
       </div>
 
-        <div class="row">
+        <div class="row main-cnt">
         <div class="col-11 col-lg-8 g-5">
           <div class="row debug prossime-classi mb-4 rounded-3">
             <h3>Prossime classi</h3>
@@ -300,8 +300,8 @@
               <thead>
                 <tr>
                   <th scope="col">Nome</th>
-                  <th scope="col">Data inizio</th>
-                  <th scope="col">ROI</th>
+                  <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                  <th scope="col" class="d-none d-md-table-cell">ROI</th>
                   <th scope="col">Stato</th>
                   <th scope="col">Azioni</th>
                 </tr>
@@ -312,8 +312,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 75</span>
                   </td>
-                  <td>15 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-success btn-rules">Done</button>
                   </td>
@@ -332,8 +332,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 76</span>
                   </td>
-                  <td>16 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-success btn-rules">Done</button>
                   </td>
@@ -352,8 +352,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 77</span>
                   </td>
-                  <td>17 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-warning text-light btn-rules">process</button>
                   </td>
@@ -372,8 +372,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 78</span>
                   </td>
-                  <td>18 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-success btn-rules">Done</button>
                   </td>
@@ -392,8 +392,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 79</span>
                   </td>
-                  <td>19 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-danger btn-rules">Failed</button>
                   </td>
@@ -412,8 +412,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 80</span>
                   </td>
-                  <td>20 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-success btn-rules">Done</button>
                   </td>
@@ -432,8 +432,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 81</span>
                   </td>
-                  <td>21 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-danger btn-rules">Failed</button>
                   </td>
@@ -452,8 +452,8 @@
                     <img class="img-table" src="img/class-avatar.jpg" alt="">
                     <span class="span-table ">Classe 82</span>
                   </td>
-                  <td>22 Feb 2021</td>
-                  <td>20%</td>
+                  <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                  <td class="d-none d-md-table-cell">20%</td>
                   <td>
                     <button type="button" class="btn btn-success btn-rules">Done</button>
                   </td>
@@ -510,7 +510,7 @@
           <div class="row todo mb-4 rounded-3 debug">
             <h3>Todo</h3>
             <section>
-              <ul class="list-group list-group-light">
+              <ul class="list-group list-group-light mb-3">
                 <li class="list-group-item">
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." />
                   Kickoff nuove classi 
@@ -523,11 +523,39 @@
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." />
                   Controllare username github studenti
                 </li>
-                
               </ul>
             </section>
           </div>
-        <div class="row activity rounded-3 debug">buongiorno</div>
+        <div class="row activity rounded-3 debug">
+          <img class="" src="img/stats.jpeg" alt="stats">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>
+                  <h4>Utenti attivi</h4>
+                  <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
+                </th>
+                <tbody>
+                  <tr>
+                    <td>Gennaio: 12000</td>
+                  </tr>
+                  <tr>
+                    <td>Febbraio: 800</td>
+                  </tr>
+                  <tr>
+                    <td>Marzo: 1500</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Visualizza report approfondito</a></td>
+                  </tr>
+                    
+                    
+                  
+                </tbody>
+              </tr>
+            </thead>
+          </table>
+        </div>
         </div>
       </div>
       
