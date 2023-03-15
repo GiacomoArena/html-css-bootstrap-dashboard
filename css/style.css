@@ -1,10 +1,6 @@
-.debug2{
-  background-color: blueviolet;
-  border:1px solid black;
-}
+
 .debug{
-  background-color: #1b70e89a;
-  border:1px solid black;
+  border:1px solid #D2D2D2;
 }
 
 
@@ -22,7 +18,7 @@
   background-color: #051E34;
   background-image: url(../img/sidebar-bg.png);
   background-size: contain;
-  height: 100%; /*da sistemare in base alla grandezza del logo che si trova sulla nav bar */
+  height: 100%;
   margin-right:0;
 }
 
@@ -38,7 +34,6 @@ main .side-bar a span{
   position: absolute;
   left: 35px;
 }
-
 .cnt-sidebar{
   padding-right: 0;
   
@@ -66,24 +61,44 @@ background-color: #1B72E8;
   font-size: 14px;
 }
 
-.prossime-classi{
-  height: 40vh;
+.col-11 h3{
+  background-color: #F7F7F7;
+  padding: 10px;
 }
 .todo{
-  height: 20vh;
+  height: 200px;
 }
-.todos{
-  height: 150px;
-}
+
 .faq{
-  height: 50vh;
 }
+.activity{
+  height: 500px;
+}
+.img-table{
+  width: 7%;
+}
+.td-rules{
+  width: 50%;
+}
+.span-table{
+  width: 70%;
+}
+.btn-rules{
+  font-size: 10px;
+}
+.btn-size{
+  font-size: 80%;
+}
+
 
 
 
 @media screen and (min-width:992px) {
   .offcanvas{
     width: 50% !important;
+  }
+  .side-bar{
+    /* height: 100vh; */
   }
 }
 
