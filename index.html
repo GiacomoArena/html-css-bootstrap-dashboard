@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
   <!-- fontawesome -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
 <!-- BOOTSTRAP CSS -->
@@ -15,6 +19,7 @@
 </head>
 <body>
   <header>
+    <!-- navbar -->
     <div class="menu-bar d-flex align-items-center justify-content-around">
       <div class="row w-100">
         <div class="col d-flex nav-color">
@@ -23,7 +28,7 @@
 
           <div class="input-group w-75 flex-nowrap">
             <form class="d-flex w-100" role="search">
-              <input class="form-control w-100" type="search" placeholder=" Prova a cercare: Lezione di Laravel" aria-label="Search">
+              <input class="form-control w-100 bg-custom" type="search" placeholder=" Prova a cercare: Lezione di Laravel" aria-label="Search">
             </form>
           </div>
 
@@ -38,9 +43,9 @@
               <button type="button" class="btn d-none d-lg-block">
                 <i class="fa-solid fa-ellipsis-vertical"></i>
               </button>
-              <button type="button" class="btn ms-3 ms-lg-0">
+              <button type="button" class="btn ms-3 ms-lg-0 ">
                 <a class="nav-link dropdown-toggle custom-dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-bell"></i>
+                  <i class="text-custom fa-solid fa-bell"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Profilo</a></li>
@@ -52,6 +57,7 @@
             </div>
           </div>
     </div>
+    <!-- \\\navbar  -->
   </header>
 
   <main>
@@ -107,7 +113,7 @@
           <div class="col-sm-3 order-1 d-flex studenti flex-column">
             <span>Studenti online negli ultimi 30 minuti</span>
             <h2>125</h2>
-  <!-- elementi dentro la terza colonna sulla sx -->
+  <!-- elementi dentro la terza colonna sulla sx con offcanvas -->
           </div>
           <div class="col-sm-3 order-0 order-sm-3 d-flex align-items-center justify-content-md-around nuovo-studente">
             <span class="me-2">Nuovo Studente</span>
@@ -238,7 +244,7 @@
                       
                     </div>
                   </div>
-                <!-- \\\scgli file -->
+                <!-- \\\scegli file -->
                 </div>
                 <div class="d-flex">
                   <!-- check-box -->
@@ -264,13 +270,14 @@
                 </div>
 
               </div>
-                <!--\\\\ container terza riga input  -->
+
             </div>
           </div>
         </div>
 
-          <div class="row main-cnt">
+        <div class="row main-cnt">
           <div class="col-11 col-lg-8 g-5">
+            <!-- tabella classi -->
             <div class="row bordi prossime-classi mb-4 rounded-3">
               <h3>Prossime classi</h3>
               <table class="table table-hover">
@@ -443,10 +450,11 @@
                       </button>
                     </td>
                   </tr>
-                  
+                  <!-- \\\tabella classi -->
                 </tbody>
               </table>
             </div>
+            <!-- FAQ  -->
             <div class="row bordi mb-4 faq rounded-3">
               <h3>F.A.Q</h3>
               <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -483,6 +491,8 @@
               </div>
             </div>
           </div>
+          <!-- \\\FAQ -->
+          <!-- check-box -->
           <div class="col-11 col-lg-4 g-5">
             <div class="row todo mb-4 rounded-3 bordi">
               <h3>Todo</h3>
@@ -503,6 +513,8 @@
                 </ul>
               </section>
             </div>
+            <!-- \\\\checkbox -->
+            <!-- utenti attivi -->
           <div class="row activity rounded-3 bordi">
             <img class="" src="img/stats.jpeg" alt="stats">
             <table class="table table-hover">
@@ -514,7 +526,7 @@
                   </th>
                   <tbody>
                     <tr>
-                      <td>Gennaio: 12000</td>
+                      <td>Gennaio: 1200</td>
                     </tr>
                     <tr>
                       <td>Febbraio: 800</td>
@@ -525,19 +537,14 @@
                     <tr>
                       <td><a href="#">Visualizza report approfondito</a></td>
                     </tr>
-                      
-                      
-                    
                   </tbody>
                 </tr>
               </thead>
             </table>
+            <!-- \\\\utenti attivi -->
           </div>
           </div>
-        </div>
-        
-        <!--\\\ blue  bar rules  -->
-        
+        </div>        
       </div>
       </div>
         

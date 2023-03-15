@@ -1,7 +1,16 @@
-
-.bordi{
-  border:1px solid #D2D2D2;
+.text-custom {
+  color: #ffa600; /* colore arancione */
 }
+.bg-custom{
+  background-color: #E5E5E5;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
 header{
   background-color: #F8F9FA;
   position: fixed;
@@ -11,9 +20,7 @@ header{
 .menu-bar{
   height: 60px;
 }
-.nav-color{
-  background-color: white;
-}
+
 header .menu-bar .logo{
   width: 150px;
   padding: 0px 15px;
@@ -24,25 +31,25 @@ header .menu-bar .logo{
   display: none;
 }
 header button a{
-  color: rgb(255, 153, 0) !important;
+  color: rgb(255, 153, 0) ;
 }
-
+.nav-color{
+  background-color: white;
+}
 .logo-mobile{
   width: 40px;
   margin: 0px 15px;
 }
 
-.side-bar{
-  background-color: #051E34;
-  background-image: url(../img/sidebar-bg.png);
-  background-size: contain;
-  height: 100%;
-  margin-right:0;
-}
+
+/* MAIN */
 main{
   padding-top: 60px;
+  font-weight: 400;
 }
-
+.bordi{
+  border:1px solid #D2D2D2;
+}
 main .side-bar a{
   position: relative;
   margin-top: 10px;
@@ -54,8 +61,16 @@ main .side-bar a span{
   position: absolute;
   left: 35px;
 }
+.side-bar{
+  background-color: #051E34;
+  background-image: url(../img/sidebar-bg.png);
+  background-size: contain;
+  height:100%;
+  margin-right:0;
+}
 .cnt-sidebar{
   padding-right: 0;
+  width: 70px; 
   
 }
 .cnt-bluebar{
@@ -83,6 +98,18 @@ background-color: #1B72E8;
 .main-cnt{
   height: 100vh;
   overflow-y: auto;
+}
+.big-main-cnt{
+  width: calc(100% - 70px);
+}
+.table h4{
+  font-weight: 500;
+}
+.table span{
+  font-weight: 400;
+}
+.table td{
+  font-weight: 400;
 }
 
 .col-11 h3{
@@ -113,15 +140,17 @@ background-color: #1B72E8;
   font-size: 80%;
 }
 
-
-
+/* Mediaquery */
 
 @media screen and (min-width:992px) {
   .offcanvas{
     width: 50% !important;
   }
-  .side-bar{
-    /* height: 100vh; */
+  .cnt-sidebar{
+    width: 150px;
   }
-}
+  .big-main-cnt{
+    width: calc(100% - 150px);
+  }
+  }
 
